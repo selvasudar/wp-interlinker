@@ -1,0 +1,223 @@
+body.toplevel_page_wp-interlinker {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.toplevel_page_wp-interlinker,
+body.wp-interlinker_page_sitemap_keywords {
+    background-color: #020202;
+    /* Black background */
+    color: #fff;
+    /* White text for contrast */
+    font-family: Arial, sans-serif;
+    background-image: url("../images/home-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+}
+
+/* Centering the form */
+body.toplevel_page_wp-interlinker .wrap {
+    text-align: center;
+    background: #222;
+    /* Darker background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 400px;
+}
+
+body.toplevel_page_wp-interlinker h1,
+body.wp-interlinker_page_sitemap_keywords h1 {
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+/* Form elements */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#wp-interlinker-form input[type="url"],
+#wp-interlinker-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#wp-interlinker-form input[type="url"] {
+    background: #333;
+    color: #fff;
+}
+
+#wp-interlinker-form input[type="url"]:focus {
+    outline: none;
+    border: 2px solid #555;
+}
+
+/* Button styling */
+#wp-interlinker-form input[type="submit"] {
+    background: linear-gradient(90deg, #00B8FF 0.15%, #00B8FF 99.82%, rgba(11, 166, 226, 0.74) 99.82%);
+    /* WordPress blue */
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+    /* Bigger button */
+    font-weight: bold;
+}
+
+#wp-interlinker-form input[type="submit"]:hover {
+    background: #005f8a;
+    /* Darker blue on hover */
+}
+
+/* Error message styling */
+#sitemap-error {
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+body.toplevel_page_wp-interlinker #wpbody-content {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.notice.notice-error {
+    color: #f00;
+}
+
+.notice {
+    color: #020202;
+}
+
+.notice.notice-success strong {
+    color: #00a32a;
+}
+
+.nav-tab {
+    background-color: #05030f;
+    color: #f6f7f7;
+}
+
+.nav-tab-active {
+    color: #05030f;
+    background-color: #f6f7f7;
+}
+
+/* General Wrapper Styling */
+.table-wrapper {
+    padding: 20px;
+}
+
+/* Heading Styling */
+.table-wrapper h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.table-wrapper h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Navigation Tabs */
+.nav-tab-wrapper {
+    display: flex;
+    border-bottom: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+.nav-tab {
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #333;
+    border-radius: 5px 5px 0 0;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-tab-active {
+    background-color: #0073aa;
+    color: #fff;
+}
+
+.nav-tab:hover {
+    background-color: #555;
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+}
+
+.tab-content[style*="display: block;"] {
+    display: block;
+}
+
+/* Table Styling */
+table.wp-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* background-color: #111;  */
+    color: #fff;
+    margin-top: 20px;
+}
+
+table.wp-list-table thead {
+    background-color: #333;
+    /* Header row background */
+    color: #fff;
+}
+
+.table-wrapper table.wp-list-table th {
+    color: #fff;
+}
+
+table.wp-list-table th,
+table.wp-list-table td {
+    padding: 10px;
+    text-align: left;
+    /* border: 1px solid #444; */
+    /* Table cell border */
+}
+
+table.wp-list-table tr:nth-child(even) {
+    background-color: #f6f7f7;
+}
+
+table.wp-list-table tr:hover {
+    /* background-color: #444; */
+    /* Row hover effect */
+}
+
+table.wp-list-table tr:hover td {
+    /* color: #fff; */
+}
+
+table.wp-list-table a {
+    color: #0073aa;
+    /* Link color */
+    text-decoration: none;
+}
+
+table.wp-list-table a:hover {
+    text-decoration: underline;
+}
+
+#wpfooter {
+    display: none;
+}
